@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG PRO UC | خرید UC پابجی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">PUBG <span>PRO</span> UC</div>
+
+    <nav>
+        <a href="#home">خانه</a>
+        <a href="#products">خرید UC</a>
+        <a href="#support">پشتیبانی</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>خرید UC پابجی موبایل</h1>
+        <p>خرید سریع UC با ثبت سفارش آسان</p>
+        <a class="main-btn" href="#products">مشاهده UC ها</a>
+    </div>
+</section>
+
+<section id="products" class="products">
+
+    <h2>بسته‌های UC</h2>
+
+    <div class="product-container">
+
+        <div class="product">
+            <div class="uc">60 UC</div>
+            <h3>بسته 60 یوسی</h3>
+            <p class="price">قیمت: ۱۰۰,۰۰۰ تومان</p>
+            <button onclick="buyUC('60 UC')">خرید</button>
+        </div>
+
+        <div class="product">
+            <div class="uc">325 UC</div>
+            <h3>بسته 325 یوسی</h3>
+            <p class="price">قیمت: ۵۰۰,۰۰۰ تومان</p>
+            <button onclick="buyUC('325 UC')">خرید</button>
+        </div>
+
+        <div class="product">
+            <div class="uc">660 UC</div>
+            <h3>بسته 660 یوسی</h3>
+            <p class="price">قیمت: ۹۰۰,۰۰۰ تومان</p>
+            <button onclick="buyUC('660 UC')">خرید</button>
+        </div>
+
+        <div class="product">
+            <div class="uc">1800 UC</div>
+            <h3>بسته 1800 یوسی</h3>
+            <p class="price">قیمت: ۲,۰۰۰,۰۰۰ تومان</p>
+            <button onclick="buyUC('1800 UC')">خرید</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="order" class="order">
+    <h2>ثبت سفارش</h2>
+
+    <div class="form-box">
+
+        <p id="selectedProduct">محصولی انتخاب نشده</p>
+
+        <input type="text" id="playerID"
+               placeholder="شناسه بازیکن (Player ID)">
+
+        <input type="text" id="playerName"
+               placeholder="نام داخل بازی">
+
+        <button onclick="submitOrder()">ثبت سفارش</button>
+
+    </div>
+</section>
+
+<section id="support" class="support">
+    <h2>پشتیبانی</h2>
+    <p>برای پیگیری سفارش با پشتیبانی تماس بگیرید.</p>
+</section>
+
+<footer>
+    <p>© 2026 PUBG PRO UC</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
